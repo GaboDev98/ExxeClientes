@@ -1,0 +1,4 @@
+#Fri Oct 26 10:48:18 COT 2018
+base.0=E\:\\tfs\\Mobile\\Ionic\\Pro\\BluClientes\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

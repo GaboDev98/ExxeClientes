@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar transparent>
+    <ion-title>Seguimiento en linea</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div class="container">
+    <ul>
+      <li *ngFor="let item of lista_estados_guia;"><span></span>
+        <div>
+          <div class="title">{{ item.Nombre }}</div>
+          <div class="type">{{ item.Fecha }}</div>
+          <div class="info">{{ item.Descripcion }}</div>
+        </div> <span class="number"><span>{{ item.Fecha | timeFormat }}</span> <span><!--02:00--></span></span>
+      </li>
+    </ul>
+  </div>
+</ion-content>

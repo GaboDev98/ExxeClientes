@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "993976660396",
+    "firebase_url": "https://bluclientes-e6f3d.firebaseio.com",
+    "project_id": "bluclientes-e6f3d",
+    "storage_bucket": "bluclientes-e6f3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993976660396:android:1bbbc440520e17ff",
+        "android_client_info": {
+          "package_name": "com.blulogistics.bluclientes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993976660396-ct0it9am7r1srccmcrk1ct1as03ghfu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASNfWytJD6UDCD6-vLmQDNIK_UAW8wN6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+# Referenced at E:\tfs\Mobile\Ionic\Test\BluClientes\platforms\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:54
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }

@@ -1,0 +1,101 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"CDVOrientation\"><param name=\"ios-package\" value=\"CDVOrientation\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SQLitePlugin\"><param name=\"ios-package\" value=\"SQLitePlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "UIBackgroundModes": [
+            {
+              "xml": "<array><string>remote-notification</string></array>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Debug.plist": {
+        "parents": {
+          "aps-environment": [
+            {
+              "xml": "<string>development</string>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Release.plist": {
+        "parents": {
+          "aps-environment": [
+            {
+              "xml": "<string>production</string>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "phonegap-plugin-push": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-screen-orientation.screenorientation",
+      "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
+      "pluginId": "cordova-plugin-screen-orientation",
+      "clobbers": [
+        "cordova.plugins.screenorientation"
+      ]
+    },
+    {
+      "id": "cordova-sqlite-storage.SQLitePlugin",
+      "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+      "pluginId": "cordova-sqlite-storage",
+      "clobbers": [
+        "SQLitePlugin"
+      ]
+    },
+    {
+      "id": "phonegap-plugin-push.PushNotification",
+      "file": "plugins/phonegap-plugin-push/www/push.js",
+      "pluginId": "phonegap-plugin-push",
+      "clobbers": [
+        "PushNotification"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-screen-orientation": "3.0.1",
+    "cordova-sqlite-storage": "2.3.2",
+    "phonegap-plugin-push": "2.2.3"
+  }
+}

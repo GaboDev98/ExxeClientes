@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "phonegap-plugin-push": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    }
+  },
+  "dependent_plugins": {}
+}

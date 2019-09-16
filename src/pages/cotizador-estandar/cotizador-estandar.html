@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Cotizador Estándar</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form [formGroup]="my_form" (ngSubmit)="CheckRoute()" novalidate>
+    <div class="ion-form-group">
+      <h4 class="form-label">Origen</h4>
+      <ion-auto-complete [(ngModel)]="origen" 
+        (ngModelChange)="FocusDestino()" 
+        [dataProvider]="autocompleteService"
+        [options]="{ placeholder : 'Digite la ciudad de origen...' }" 
+        formControlName="origen" 
+        #input_origen>
+      </ion-auto-complete>
+    </div>
+    <div class="ion-form-group">
+      <h4 class="form-label">Destino</h4>
+      <ion-auto-complete [(ngModel)]="destino" 
+        (ngModelChange)="FocusCount()" 
+        (keyup.enter)="CheckRoute()" 
+        [dataProvider]="autocompleteService" 
+        [options]="{ placeholder : 'Digite la ciudad de destino...' }" 
+        formControlName="destino" 
+        #input_destino>
+      </ion-auto-complete>
+    </div>
+    <button ion-button type="submit" block style="margin-top: 20px;">Verificar ruta</button>
+  </form>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Cantidad (Unidades)</ion-label>
+      <ion-input type="text" disabled="{{ is_disabled }}" [(ngModel)]="request.Cantidad" #request_cantidad></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Peso (Kilos)</ion-label>
+      <ion-input type="text" disabled="{{ is_disabled }}" [(ngModel)]="request.Kilos" #request_kilos></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Peso volumen (Kilos)</ion-label>
+      <ion-input type="text" disabled="{{ is_disabled }}" [(ngModel)]="request.KilosVolumen" #request_kilos_volumen></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Valor declarado (Pesos)</ion-label>
+      <ion-input type="text" disabled="{{ is_disabled }}" [(ngModel)]="request.ValorDeclarado" #request_declarado></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-buttons>
+    <button ion-button block icon-left (click)="CotizacionSearch()">
+      <ion-icon name="btn_cotizar"></ion-icon>
+      Consultar Cotización
+    </button>
+    <button style="margin-top: 10px;" ion-button block icon-left (click)="ClearCotizacion()">
+      Limpiar formulario
+    </button>
+  </ion-buttons>
+</ion-content>

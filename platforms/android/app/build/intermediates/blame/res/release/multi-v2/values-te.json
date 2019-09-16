@@ -1,0 +1,116 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\tfs\\Mobile\\Ionic\\Test\\BluClientes\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-te\\values-te.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Angel Ascanio\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\1b443c0e01ab6aa7ce28aa10c719a581\\res\\values-te\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "241",
+                        "endColumns": "100",
+                        "endOffsets": "341"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "304",
+                        "endColumns": "104",
+                        "endOffsets": "404"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Angel Ascanio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\6a9c16487736008789bc47dc1b9742f6\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "409",
+                        "endColumns": "100",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Angel Ascanio\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\2578e2ca2f655c0f6c10ddcb61243241\\res\\values-te\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "198",
+                        "endOffsets": "481"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "198",
+                        "endOffsets": "299"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\tfs\\Mobile\\Ionic\\Pro\\BluClientes\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-te\\values-te.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Angel Ascanio\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\1b443c0e01ab6aa7ce28aa10c719a581\\res\\values-te\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "241",
+                        "endColumns": "100",
+                        "endOffsets": "341"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "304",
+                        "endColumns": "104",
+                        "endOffsets": "404"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Angel Ascanio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\6a9c16487736008789bc47dc1b9742f6\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "409",
+                        "endColumns": "100",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Angel Ascanio\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\2578e2ca2f655c0f6c10ddcb61243241\\res\\values-te\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "198",
+                        "endOffsets": "481"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "198",
+                        "endOffsets": "299"
+                    }
+                }
+            ]
+        }
+    ]
+}

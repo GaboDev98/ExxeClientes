@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\tfs\\Mobile\\Ionic\\Test\\BluClientes\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Angel Ascanio\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\2578e2ca2f655c0f6c10ddcb61243241\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "287",
+                        "endColumns": "166",
+                        "endOffsets": "453"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "166",
+                        "endOffsets": "267"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Angel Ascanio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\6a9c16487736008789bc47dc1b9742f6\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "101",
+                        "endOffsets": "152"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "373",
+                        "endColumns": "101",
+                        "endOffsets": "470"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Angel Ascanio\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\1b443c0e01ab6aa7ce28aa10c719a581\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "245",
+                        "endColumns": "96",
+                        "endOffsets": "341"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "272",
+                        "endColumns": "100",
+                        "endOffsets": "368"
+                    }
+                }
+            ]
+        }
+    ]
+}

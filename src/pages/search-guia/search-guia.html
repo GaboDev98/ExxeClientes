@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar transparent>
+    <ion-title>Rastreo de Guías</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="menuToggle()">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="scroll-hide">
+  <ion-list>
+    <ion-item>
+      <ion-label fixed>Número</ion-label>
+      <ion-input #inputGuiaNumero type="text" [(ngModel)]="consecutivo"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-buttons>
+    <button ion-button block icon-left (click)="searchGuia()">
+      <ion-icon name="search"></ion-icon>
+      Consultar Guía
+    </button>
+  </ion-buttons>
+</ion-content>

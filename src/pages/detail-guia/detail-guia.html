@@ -1,0 +1,105 @@
+<ion-header>
+  <ion-navbar transparent>
+    <ion-title>Guía: {{ modelGuia.Guia }}</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="menuToggle()">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid class="grid-info">
+    <ion-row>
+      <ion-col col-6>
+        <ion-row>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label><strong>Ciudad origen</strong></ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label>{{ modelGuia.CiudadOrigen }}</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col col-6>
+        <ion-row>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label><strong>Ciudad destino</strong></ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label>{{ modelGuia.CiudadDestino }}</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-12>
+        <ion-row>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label><strong>Tipo de Guía</strong></ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label>{{ modelGuia.TipoGuia }}</ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label><strong>Cliente</strong></ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label>{{ modelGuia.CuentaCliente }}</ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label><strong>Destinatario</strong></ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label>{{ modelGuia.DestinatarioNombre }}</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+              <ion-label><strong>Dirección</strong></ion-label>
+            </ion-col>
+            <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+              <ion-label>{{ modelGuia.DestinatarioDireccion }}</ion-label>
+            </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label><strong>Teléfono</strong></ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label>{{ modelGuia.DestinatarioTelefono }}</ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label><strong>Cedúla-Nit</strong></ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label>{{ modelGuia.DestinatarioIdentificacion }}</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label><strong>Documento externo</strong></ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label>{{ modelGuia.DocumentoExterno }}</ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label><strong>Observaciones</strong></ion-label>
+          </ion-col>
+          <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+            <ion-label>{{ modelGuia.Observacion }}</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12>
+        <button ion-button block icon-left (click)="trackingGuia()">
+          <ion-icon name="location"></ion-icon>
+          Ver Tracking
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

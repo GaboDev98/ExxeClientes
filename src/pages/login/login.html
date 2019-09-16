@@ -1,0 +1,29 @@
+<ion-content>
+  <ion-grid>
+    <ion-row justify-content-center align-items-center>
+      <div class="section-with-logo">
+        <img src="assets/imgs/WelcomeIcon-6.png" class="img-logo" alt="Logo" />
+        <ion-list>
+          <ion-item>
+            <ion-label floating>Usuario</ion-label>
+            <ion-input type="text" [(ngModel)]="request_auth.Username"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label floating>Contraseña</ion-label>
+            <ion-input type="password" [(ngModel)]="request_auth.Password"></ion-input>
+          </ion-item>
+        </ion-list>
+        <ion-buttons>
+          <button class="button-login" ion-button block (click)="authLogin()">
+            Ingresar
+          </button>
+          <div text-center>
+            <button ion-button (click)="backPage()">
+              Regresar
+            </button>
+          </div>
+        </ion-buttons>
+      </div>
+    </ion-row>
+  </ion-grid>
+</ion-content>
